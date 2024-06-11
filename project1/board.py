@@ -5,8 +5,8 @@ class Board:
     def __init__(self, board_array):
         self.board_array = board_array
         self.zero = self.board_array.index(0)
-        self.h1 = self.calculate_h1()
-        self.h2 = self.calculate_h2()
+        self.h1 = self.calculate_h1
+        self.h2 = self.calculate_h2
 
     # Calculate the heuristic h1: the number of misplaced tiles
     @property
