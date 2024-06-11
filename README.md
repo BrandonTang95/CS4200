@@ -57,7 +57,7 @@ A counter increments each time a new child node is created.
 ### Analysis
 By comparing the output results, the average search cost and run time for the A* algorithm using different heuristic functions (h1 and h2) are almost the same from depth 2 to depth 6. However, starting from depth 8, the average search cost and run time using h1 (number of misplaced tiles) increase more than those using h2 (Manhattan Distance). After depth 20, the average run time using h1 increases dramatically.
 
-After testing 5000 random puzzles, it can be concluded that using the A* algorithm with h2 (Manhattan Distance) generates fewer nodes and costs less time to solve the 8-puzzle problem. Thus, the A* algorithm with the Manhattan Distance heuristic is more efficient.
+After testing 100+ random puzzles, it can be concluded that using the A* algorithm with h2 (Manhattan Distance) generates fewer nodes and costs less time to solve the 8-puzzle problem. Thus, the A* algorithm with the Manhattan Distance heuristic is more efficient.
 
 ---
 
