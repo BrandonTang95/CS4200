@@ -2238,3 +2238,157 @@ Heuristic Function: h2 (Manhattan Distance)
 H2: 457362081 -> 457062381 -> 457602381 -> 457620381 -> 450627381 -> 405627381 -> 425607381 -> 425687301 -> 425687310 -> 425680317 -> 425608317 -> 425618307 -> 425618037 -> 425018637 -> 425108637 -> 425138607 -> 425138670 -> 425130678 -> 420135678 -> 402135678 -> 042135678 -> 142035678 -> 142305678 -> 102345678 -> 012345678
 
 --------------------------------------------------
+Initial State: 125348670
+Heuristic Function: h1 (misplaced tiles)
+- Search Cost: 7
+- Depths: 4
+- Run Time: 0.00 ms
+H1: 125348670 -> 125340678 -> 120345678 -> 102345678 -> 012345678
+
+Heuristic Function: h2 (Manhattan Distance)
+- Search Cost: 7
+- Depths: 4
+- Run Time: 0.00 ms
+H2: 125348670 -> 125340678 -> 120345678 -> 102345678 -> 012345678
+
+--------------------------------------------------
+Initial State: 125304678
+Heuristic Function: h1 (misplaced tiles)
+- Search Cost: 9
+- Depths: 4
+- Run Time: 0.50 ms
+H1: 125304678 -> 125340678 -> 120345678 -> 102345678 -> 012345678
+
+Heuristic Function: h2 (Manhattan Distance)
+- Search Cost: 9
+- Depths: 4
+- Run Time: 0.00 ms
+H2: 125304678 -> 125340678 -> 120345678 -> 102345678 -> 012345678
+
+--------------------------------------------------
+Initial State: 142635078
+Heuristic Function: h1 (misplaced tiles)
+- Search Cost: 9
+- Depths: 4
+- Run Time: 0.00 ms
+H1: 142635078 -> 142035678 -> 142305678 -> 102345678 -> 012345678
+
+Heuristic Function: h2 (Manhattan Distance)
+- Search Cost: 9
+- Depths: 4
+- Run Time: 0.00 ms
+H2: 142635078 -> 142035678 -> 142305678 -> 102345678 -> 012345678
+
+--------------------------------------------------
+Initial State: 140352678
+Heuristic Function: h1 (misplaced tiles)
+- Search Cost: 9
+- Depths: 4
+- Run Time: 0.50 ms
+H1: 140352678 -> 142350678 -> 142305678 -> 102345678 -> 012345678
+
+Heuristic Function: h2 (Manhattan Distance)
+- Search Cost: 9
+- Depths: 4
+- Run Time: 0.00 ms
+H2: 140352678 -> 142350678 -> 142305678 -> 102345678 -> 012345678
+
+--------------------------------------------------
+Initial State: 142358670
+Heuristic Function: h1 (misplaced tiles)
+- Search Cost: 9
+- Depths: 4
+- Run Time: 0.00 ms
+H1: 142358670 -> 142350678 -> 142305678 -> 102345678 -> 012345678
+
+Heuristic Function: h2 (Manhattan Distance)
+- Search Cost: 9
+- Depths: 4
+- Run Time: 0.00 ms
+H2: 142358670 -> 142350678 -> 142305678 -> 102345678 -> 012345678
+
+--------------------------------------------------
+Initial State: 142375068
+Heuristic Function: h1 (misplaced tiles)
+- Search Cost: 9
+- Depths: 4
+- Run Time: 0.00 ms
+H1: 142375068 -> 142375608 -> 142305678 -> 102345678 -> 012345678
+
+Heuristic Function: h2 (Manhattan Distance)
+- Search Cost: 9
+- Depths: 4
+- Run Time: 0.00 ms
+H2: 142375068 -> 142375608 -> 142305678 -> 102345678 -> 012345678
+
+--------------------------------------------------
+Initial State: 142375680
+Heuristic Function: h1 (misplaced tiles)
+- Search Cost: 9
+- Depths: 4
+- Run Time: 0.00 ms
+H1: 142375680 -> 142375608 -> 142305678 -> 102345678 -> 012345678
+
+Heuristic Function: h2 (Manhattan Distance)
+- Search Cost: 9
+- Depths: 4
+- Run Time: 0.50 ms
+H2: 142375680 -> 142375608 -> 142305678 -> 102345678 -> 012345678
+
+--------------------------------------------------
+Initial State: 032415678
+Heuristic Function: h1 (misplaced tiles)
+- Search Cost: 11
+- Depths: 4
+- Run Time: 0.00 ms
+H1: 032415678 -> 302415678 -> 312405678 -> 312045678 -> 012345678
+
+Heuristic Function: h2 (Manhattan Distance)
+- Search Cost: 9
+- Depths: 4
+- Run Time: 0.00 ms
+H2: 032415678 -> 302415678 -> 312405678 -> 312045678 -> 012345678
+
+--------------------------------------------------
+Initial State: 320415678
+Heuristic Function: h1 (misplaced tiles)
+- Search Cost: 9
+- Depths: 4
+- Run Time: 0.00 ms
+H1: 320415678 -> 302415678 -> 312405678 -> 312045678 -> 012345678
+
+Heuristic Function: h2 (Manhattan Distance)
+- Search Cost: 9
+- Depths: 4
+- Run Time: 0.00 ms
+H2: 320415678 -> 302415678 -> 312405678 -> 312045678 -> 012345678
+
+--------------------------------------------------
+Initial State: 310452678
+Heuristic Function: h1 (misplaced tiles)
+- Search Cost: 9
+- Depths: 4
+- Run Time: 0.00 ms
+H1: 310452678 -> 312450678 -> 312405678 -> 312045678 -> 012345678
+
+Heuristic Function: h2 (Manhattan Distance)
+- Search Cost: 9
+- Depths: 4
+- Run Time: 0.00 ms
+H2: 310452678 -> 312450678 -> 312405678 -> 312045678 -> 012345678
+
+--------------------------------------------------
+Initial State: 012345678
+Heuristic Function: h1 (misplaced tiles)
+- Search Cost: 0
+- Depths: 0
+- Run Time: 0.00 ms
+H1: 012345678
+
+Heuristic Function: h2 (Manhattan Distance)
+- Search Cost: 0
+- Depths: 0
+- Run Time: 0.00 ms
+H2: 012345678
+
+--------------------------------------------------
