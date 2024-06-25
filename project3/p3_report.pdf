@@ -96,7 +96,6 @@ Human move: f5
 Opponent win
 
 
-
 Scenario 2: AI wins
 
 *** Start Game Connect Four ***
@@ -188,6 +187,7 @@ h - - - - - - - -
 AI move: b4
 
 AI win
+
 
 Project Report: 4-in-a-line
 
