@@ -1,0 +1,291 @@
+Program Output:
+
+Scenario 1: Player Wins
+
+*** Start Game Connect Four ***
+
+Enter the maximum running time (this program is required in 25 seconds): 25
+Enter the depth: 3
+Who goes first ( 'C' for Computer AI, 'O' for Opponent ): C
+
+    -- Game Start --
+****************************
+|  -Maximum time (sec): 25 |
+|  -Game Depth: 3          |
+|  -First Hand: AI         |
+****************************
+
+---Initial Board---
+-------------------
+  1 2 3 4 5 6 7 8
+a - - - - - - - -
+b - - - - - - - -
+c - - - - - - - -
+d - - - - - - - -
+e - - - - - - - -
+f - - - - - - - -
+g - - - - - - - -
+h - - - - - - - -
+-------------------
+
+-------- AI -------
+-------------------
+  1 2 3 4 5 6 7 8
+a - - - - - - - -
+b - - - - - - - -
+c - - - - - - - -
+d - - - - - - - -
+e - - - X - - - -
+f - - - - - - - -
+g - - - - - - - -
+h - - - - - - - -
+-------------------
+AI move: e4
+
+==================> Enter your next move: e5
+
+----- OPPONENT ----
+-------------------
+  1 2 3 4 5 6 7 8
+a - - - - - - - -
+b - - - - - - - -
+c - - - - - - - -
+d - - - - - - - -
+e - - - X O - - -
+f - - - - - - - -
+g - - - - - - - -
+h - - - - - - - -
+-------------------
+Human move: e5
+
+...
+...
+...
+
+defense 3
+-------- AI -------
+-------------------
+  1 2 3 4 5 6 7 8
+a - - - - - - - -
+b - - - - - - - -
+c - - - O X - - -
+d O X X X O - - -
+e - - - X O - - -
+f - - - X - - - -
+g - - X O O - - -
+h - - - - - - - -
+-------------------
+AI move: g3
+
+==================> Enter your next move: f5
+
+----- OPPONENT ----
+-------------------
+  1 2 3 4 5 6 7 8
+a - - - - - - - -
+b - - - - - - - -
+c - - - O X - - -
+d O X X X O - - -
+e - - - X O - - -
+f - - - X O - - -
+g - - X O O - - -
+h - - - - - - - -
+-------------------
+Human move: f5
+
+Opponent win
+
+
+
+Scenario 2: AI wins
+
+*** Start Game Connect Four ***
+
+Enter the maximum running time (this program is required in 25 seconds): 5
+Enter the depth: 3
+Who goes first ( 'C' for Computer AI, 'O' for Opponent ): O
+
+    -- Game Start --
+****************************
+|  -Maximum time (sec): 5 |
+|  -Game Depth: 3          |
+|  -First Hand: Human     |
+****************************
+
+---Initial Board---
+-------------------
+  1 2 3 4 5 6 7 8
+a - - - - - - - -
+b - - - - - - - -
+c - - - - - - - -
+d - - - - - - - -
+e - - - - - - - -
+f - - - - - - - -
+g - - - - - - - -
+h - - - - - - - -
+-------------------
+
+==================> Enter your next move: e5
+
+----- OPPONENT ----
+-------------------
+  1 2 3 4 5 6 7 8
+a - - - - - - - -
+b - - - - - - - -
+c - - - - - - - -
+d - - - - - - - -
+e - - - - O - - -
+f - - - - - - - -
+g - - - - - - - -
+h - - - - - - - -
+-------------------
+Human move: e5
+
+-------- AI -------
+-------------------
+  1 2 3 4 5 6 7 8
+a - - - - - - - -
+b - - - - - - - -
+c - - - - - - - -
+d - - - - - - - -
+e - - - X O - - -
+f - - - - - - - -
+g - - - - - - - -
+h - - - - - - - -
+-------------------
+AI move: e4
+
+...
+...
+...
+
+----- OPPONENT ----
+-------------------
+  1 2 3 4 5 6 7 8
+a O O O - - - - -
+b - - - - - - - -
+c - - - X - - - -
+d - - - X - - - -
+e - - - X O - - -
+f - - - - - - - -
+g - - - - - - - -
+h - - - - - - - -
+-------------------
+Human move: a3
+
+-------- AI -------
+-------------------
+  1 2 3 4 5 6 7 8
+a O O O - - - - -
+b - - - X - - - -
+c - - - X - - - -
+d - - - X - - - -
+e - - - X O - - -
+f - - - - - - - -
+g - - - - - - - -
+h - - - - - - - -
+-------------------
+AI move: b4
+
+AI win
+
+
+
+Scenario 3: Tie Game
+
+*** Start Game Connect Four ***
+
+Enter the maximum running time (this program is required in 25 seconds): 5
+Enter the depth: 3
+Who goes first ( 'C' for Computer AI, 'O' for Opponent ): O
+
+    -- Game Start --
+****************************
+|  -Maximum time (sec): 5 |
+|  -Game Depth: 3          |
+|  -First Hand: Human     |
+****************************
+
+...
+...
+...
+
+----- OPPONENT ----
+-------------------
+  1 2 3 4 5 6 7 8
+a O X O O O X X X
+b O O O X O O O X
+c O X X X O O X O
+d X X X O X X X O
+e X X O O X O X O
+f X O O O X X O X
+g O X X X O O X X
+h O O X O O O X -
+-------------------
+Human move: b3
+
+-------- AI -------
+-------------------
+  1 2 3 4 5 6 7 8
+a O X O O O X X X
+b O O O X O O O X
+c O X X X O O X O
+d X X X O X X X O
+e X X O O X O X O
+f X O O O X X O X
+g O X X X O O X X
+h O O X O O O X X
+-------------------
+AI move: h8
+
+Tie Game
+
+
+Project Report: 4-in-a-line
+
+Strategies in Generating the Evaluation Function and Implementation of the Alpha-Beta Pruning Algorithm
+
+Evaluation Function
+
+The evaluation function is a critical component of the AI's decision-making process. It assigns a score to a given board state, guiding the AI in choosing moves that maximize its chances of winning. In this project, the evaluation function considers the following aspects:
+
+1. Number of Connected Pieces: The function counts the number of sequences of connected pieces for both the AI ('X') and the opponent ('O'). Longer sequences of connected pieces are weighted more heavily as they represent a stronger position.
+
+2. Blocking Opponent Moves: The function evaluates the potential of the AI's moves to block the opponent's sequences. Preventing the opponent from forming a line of four is crucial for the AI's defense strategy.
+
+3. Positional Advantage: The function gives additional weight to pieces placed in the center of the board. Central positions are generally more advantageous as they provide more opportunities for forming sequences in multiple directions.
+
+Alpha-Beta Pruning Algorithm
+
+The Minimax algorithm with alpha-beta pruning is used to determine the optimal moves for the AI. This algorithm explores all possible moves up to a specified depth and evaluates their outcomes using the evaluation function. Alpha-beta pruning enhances the Minimax algorithm by reducing the number of nodes that need to be evaluated, making the search more efficient.
+
+Implementation Steps:
+
+1. Max Function: This function evaluates the maximum score that the AI can achieve from a given board state. It recursively explores all possible moves, updates the alpha value (representing the best score achievable by the AI), and prunes branches that cannot improve the current alpha value.
+
+2. Min Function: This function evaluates the minimum score that the opponent can achieve from a given board state. It recursively explores all possible moves, updates the beta value (representing the best score achievable by the opponent), and prunes branches that cannot improve the current beta value.
+
+3. Recursive Search: The algorithm alternates between the Max and Min functions, effectively simulating the decision-making process of both the AI and the opponent. The search depth is limited to ensure that the algorithm completes within the allowed time frame.
+
+Discussion of Evaluation Functions
+
+Evaluation functions play a pivotal role in the effectiveness of game-playing AI. A well-designed evaluation function should accurately reflect the strategic value of a board state. Key considerations for evaluation functions include:
+
+- Accuracy: The function should provide a reliable estimate of the likelihood of winning from a given state.
+- Speed: The function must be computationally efficient to allow deep searches within the time constraints.
+- Heuristic Value: The function should incorporate heuristics that reflect the game's strategic nuances, such as controlling the center and blocking opponent moves.
+
+In this project, the evaluation function was designed to balance these considerations, providing a robust basis for the AI's decision-making process.
+
+Experiences Learned
+
+Challenges
+
+1. Complexity of Evaluation Function: Designing an effective evaluation function was challenging. It required balancing different strategic factors and ensuring computational efficiency.
+2. Alpha-Beta Pruning Implementation: Implementing the alpha-beta pruning algorithm required careful handling of recursive calls and pruning conditions. Ensuring correctness while maintaining efficiency was a key challenge.
+
+Learnings
+
+1. Importance of Heuristics: The project highlighted the importance of heuristics in game AI. Simple heuristics, such as prioritizing central positions and blocking opponent moves, significantly improved the AI's performance.
+2. Efficiency Gains from Pruning: Alpha-beta pruning demonstrated substantial efficiency gains, allowing deeper searches within the same time constraints. This reinforced the value of pruning techniques in AI search algorithms.
+3. Iterative Development: Iteratively developing and testing the evaluation function and pruning algorithm helped in refining the AI's performance. Continuous testing and adjustment were crucial for achieving a robust implementation.
