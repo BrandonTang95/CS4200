@@ -189,58 +189,6 @@ AI move: b4
 
 AI win
 
-
-
-Scenario 3: Tie Game
-
-*** Start Game Connect Four ***
-
-Enter the maximum running time (this program is required in 25 seconds): 5
-Enter the depth: 3
-Who goes first ( 'C' for Computer AI, 'O' for Opponent ): O
-
-    -- Game Start --
-****************************
-|  -Maximum time (sec): 5 |
-|  -Game Depth: 3          |
-|  -First Hand: Human     |
-****************************
-
-...
-...
-...
-
------ OPPONENT ----
--------------------
-  1 2 3 4 5 6 7 8
-a O X O O O X X X
-b O O O X O O O X
-c O X X X O O X O
-d X X X O X X X O
-e X X O O X O X O
-f X O O O X X O X
-g O X X X O O X X
-h O O X O O O X -
--------------------
-Human move: b3
-
--------- AI -------
--------------------
-  1 2 3 4 5 6 7 8
-a O X O O O X X X
-b O O O X O O O X
-c O X X X O O X O
-d X X X O X X X O
-e X X O O X O X O
-f X O O O X X O X
-g O X X X O O X X
-h O O X O O O X X
--------------------
-AI move: h8
-
-Tie Game
-
-
 Project Report: 4-in-a-line
 
 Strategies in Generating the Evaluation Function and Implementation of the Alpha-Beta Pruning Algorithm
